@@ -24,4 +24,4 @@
 
    ```bash
    git clone https://github.com/yourusername/practice-appointment.git
-   cd practice-appointment
+   cd Appointment_Pro
