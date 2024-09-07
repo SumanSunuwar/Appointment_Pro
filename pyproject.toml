@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "practice-appointment"
+version = "1.0.1"
+description = "This is an appoinment system built using Python, Django for GraphQL API and NextJs. It is highly moduler and headless."
+authors = ["Suman Sunuwar <jaycessunuwar@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.12"
+django = { version = "^4.2", extras = ["bcrypt"] }
+graphene = "^3.3"
+psycopg = "^3.2.1"
+django-filter = "^24.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
